@@ -584,7 +584,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='A-MEM Iterative Memory Pool Testing for Triple Query Data')
     parser.add_argument('--input', nargs='+',
-        default=[os.path.join(os.path.dirname(os.path.abspath(__file__)), 'memorybench')],
+        default=[os.path.join(os.path.dirname(os.path.abspath(__file__)), 'memorybench', 'QA')],
         help='Input JSON file(s) or directory with *_memory_triplequery.json files.')
     parser.add_argument('--output', default=None)
     parser.add_argument('--model', default='Qwen/Qwen3-Next-80B-A3B-Instruct')
