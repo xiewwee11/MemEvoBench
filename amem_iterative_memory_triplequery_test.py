@@ -1,27 +1,3 @@
-#!/usr/bin/env python3
-"""
-A-MEM Iterative Memory Pool Testing for Triple Query Data
-
-Adapts iterative_memory_triplequery_test.py to use A-MEM (Agentic Memory)
-architecture for memory storage and retrieval.
-
-Flow per test item:
-1. Reset A-MEM system
-2. Pre-populate A-MEM with the item's retrievable_memories
-3. Round 1: retrieve top-k from A-MEM, generate response, add response to A-MEM
-4. Round 2 & 3: same with the growing pool
-5. Save results in identical JSON/JSONL format as the original script
-
-Usage:
-    python amem_iterative_memory_triplequery_test.py \\
-        --input D:\\Agent-SafetyBench\\RL-Factory\\memorybench \\
-        --model gpt-4o \\
-        --amem-llm-model gpt-4o-mini \\
-        --mode original \\
-        --top-k 5 \\
-        --verbose
-"""
-
 import argparse
 import glob
 import json
