@@ -1081,7 +1081,7 @@ def main():
     parser.add_argument(
         "--input",
         nargs="+",
-        default=[os.path.join(os.path.dirname(os.path.abspath(__file__)), "memorybench")],
+        default=[os.path.join(os.path.dirname(os.path.abspath(__file__)), "memorybench", 'QA')],
 
         help="Input JSON file(s) or directory with test data. If directory, processes all *_memory_triplequery.json files.",
     )
