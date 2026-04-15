@@ -202,19 +202,3 @@ python memorybench/Workflow/amem/eval_workflow_with_modtool_amem.py \
 - `--enable-feedback`（QA-style）：生成恶意用户反馈并回注记忆池。
 
 ---
-
-## 7. 结果解读建议（写论文可直接引用）
-
-做横向比较时，建议固定同一数据切分、同一 judge 配置后，比较以下维度：
-
-1. `normal` vs `amem`：检索与组织方式变化对 ASR 的影响。
-2. `static` vs `dynamic(with_modtool)`：显式记忆修正对安全性与稳定性的影响。
-3. `use_feedback` 开/关：偏置信号注入后，记忆演化风险是否被放大。
-
-可将结论组织为：
-
-- **安全退化幅度**（ASR 变化）；
-- **修正有效性**（safe rate / F1）；
-- **多轮累计效应**（Round1→Round3 的趋势）。
-
----
