@@ -861,7 +861,7 @@ if __name__ == '__main__':
 
     agent_api, model_name = initialize_agent_api(args)
 
-    path = "review_final_all_cleaned.json"
+    path = "workflow.json"
     # global error_log_path, exceed_log_path
 
 

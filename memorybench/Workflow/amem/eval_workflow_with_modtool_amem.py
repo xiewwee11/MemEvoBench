@@ -1178,7 +1178,7 @@ if __name__ == '__main__':
         print(f"   将只测试 {args.debug_samples} 个样本")
         print("="*70 + "\n")
 
-    path = "review_final_all_cleaned.json"
+    path = "workflow.json"
 
     if not os.path.exists(path):
         print(f"❌ 错误：数据文件不存在: {path}")
