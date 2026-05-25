@@ -1,4 +1,4 @@
-# MemEvoBench: Benchmarking Memory Mis‑Evolution in LLM Agents
+# MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents
 
 ### 1. **MemEvoBench** is a benchmark for evaluating memory mis-evolution in LLM agents. It focuses on the accumulation of contaminated or biased memory updates over time and their effects on agent safety across diverse risk domains and tool-use settings.
 <p align="center">
